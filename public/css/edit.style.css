@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/*  ヘッター部分
+-----------------------------*/
+body {
+    width: auto;
+}
+
+h1 {
+    background-color: #3B97D1;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Arial", "メイリオ";
+    font-weight: normal;
+}
+
+/* エラー部分
+-----------------------------*/
+p.error__message.text-center.text-danger {
+    transform: translate(0px, -15px);
+    color: #e80913;
+    font-size: 18px;
+}
+
+
+/* メイン部分
+-----------------------------*/
+table {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+    margin-top: -27px;
+    margin-left: 335px;
+}
+
+th {
+    color: #050404;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+th.title {
+    transform: translate(11px, 0px);
+}
+
+td.title {
+    transform: translate(-180px, 50px);
+}
+
+input.title {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 0.5em 0;
+}
+
+th.kbn {
+    transform: translate(11px, 30px);
+}
+
+select {
+    width: 400px;
+    height: auto;
+    padding: 5px;
+    transform: translate(-381px, 66px);
+}
+
+th.keisai {
+    transform: translate(11px, 30px);
+}
+
+td.keisai {
+    transform: translate(-180px, 70px);
+}
+
+input.keisai {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 0.5em 0;
+}
+
+th.kaishi {
+    transform: translate(11px, 50px);
+}
+
+td.kaishi {
+    transform: translate(-180px, 90px);
+}
+
+input.kaishi {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 0.5em 0;
+}
+
+th.syuryou {
+    transform: translate(11px, 50px);
+}
+
+td.syuryou {
+    transform: translate(-180px, 90px);
+}
+
+input.syuryou {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 0.5em 0;
+}
+
+th.naiyou {
+    transform: translate(11px, -70px);
+}
+
+td.naiyou {
+    transform: translate(-305px, 30px);
+}
+
+th.kousin {
+    transform: translate(11px, -60px);
+}
+
+td.kousin {
+    transform: translate(-180px, -20px);
+}
+
+input.kousin {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 0.5em 0;
+}
+
+
+/* ボタン部分
+-----------------------------*/
+
+button.btn-registration {
+    color: #fff;
+    background-color: #3B97D1;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 3em;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 600px;
+    transform: translate(-100px, 0px);
+}
+
+button {
+    background-color: #E8526A;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 10em;
+    font-size: 20px;
+    width: 10em;
+    height: 3em;
+    transform: translate(100px, 0px);
+}
+
+a.btn-success {
+    color: #fff;
+    text-decoration: none;
+}

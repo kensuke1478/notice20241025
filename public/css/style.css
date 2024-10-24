@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*  共通・ヘッター部分
+-----------------------------*/
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    margin-top: 30px;
+    border: 1px solid #333;
+}
+
+tr.kensaku {
+    background-color: #0194fe;
+    color: #fff;
+    border-bottom: 1px solid black;
+    width: 960px;
+}
+
+th {
+    font-weight: normal;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+
+/*  検索部分
+-----------------------------*/
+th.lavel {
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+td {
+    border: 1px solid #333;
+}
+
+td.kakunin {
+    letter-spacing: 1px;
+}
+
+span.title {
+    text-align: left;
+}
+
+span.kbn {
+    text-align: left;
+    letter-spacing: 5px;
+    padding-left: 31px;
+}
+
+span.keisai_keisai {
+    padding-left: 20px;
+}
+
+span.keisai {
+    padding-left: 37px;
+    text-align: left;
+    font-size: 15px;
+}
+
+span.kikan_kikan {
+    padding-left: 50px;
+}
+
+span.kikan {
+    padding-left: 37px;
+    text-align: left;
+    font-size:15px;
+}
+
+/*  ページネーション
+-----------------------------*/
+a.item {
+    text-decoration: none;
+    color:#fff;
+}
+
+div.ui.pagination.menu {
+    transform: translate(720px, -24px);
+}
+
+/*  ボタン処理
+-----------------------------*/
+div.button {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn.btn-danger.btn-sm.btn-dell {
+    transform: translate(97px, -26px);
+}
+
+/* エラー部分
+-----------------------------*/
+p.error__message.text-center.text-danger {
+    transform: translate(0px, -15px);
+    color: #e80913;
+    font-size: 18px;
+}
